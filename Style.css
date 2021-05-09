@@ -3,6 +3,10 @@ body{
   background: url("Blue.gif");
 }
 
-h1, h4{
+h1{
+  color: white;
+}
+
+h4{
   color: white;
 }
