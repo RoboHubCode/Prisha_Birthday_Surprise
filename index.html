@@ -13,8 +13,8 @@
 <link rel="stylesheet" href="Style.css">
 </head>
 
-<body class="container">
-  <audio src=""></audio>
+<body class="container" onload="playMusic();">
+  <audio id="HBD_Audio" src="Abhi To Party shoru hoi hain.mp3"></audio>
   
   <h1 id="Name" class="header">Happy Birthday Prisha! 
     <sup>
@@ -27,4 +27,10 @@
   <h4>
     Today is your SPECIAL day. So we hope you enjoy it! Hope you come back soon, since you owe us a Party! Hope you are enjoying this day with your Family!
   </h4>
+  
+  <script>
+    function playMusic(){
+      document.getElementById("HBD_Audio").play("Abhi to Party Shoru hoi hain.mp3");
+    }
+  </script>
 <html>
