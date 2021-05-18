@@ -39,5 +39,6 @@ h4{
 #pri: hover,
 #Bot: hover,
 #Gal: hover{
-  color: white;
+  background-color: powderblue;
+  color: black;
 }
